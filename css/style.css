@@ -102,20 +102,6 @@ body{
 
 }
 
-.fixed{
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    background-color: #fff;
-    height: 60px;
-}
-.fixed .logo-menu h1{
-    color: #000;
-}
-.fixed .list a{
-    color: #000;
-}
-
 @media(min-width : 800px){
     
     .logo-menu i {
@@ -144,4 +130,17 @@ body{
         color: #fff;
         margin: 0 1rem;
     }
+}
+.fixed{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background-color: #fff;
+    height: 60px;
+}
+.fixed .logo-menu h1{
+    color: #000;
+}
+.fixed .list a{
+    color: #000;
 }
