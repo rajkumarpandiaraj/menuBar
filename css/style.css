@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 98.6vw;
+    line-height: 1.4;
+    font-size: 18px;
+}
+.container{
+    width: 100%;
+}
+.nav{
+    width: 100%;
+    position: relative;
+
+}
+.logo-menu{
+    width: 100%;
+    height: 60px;
+    position: relative;
+    background-color: #fff ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    
+}
+/* .container-links{
+    background-color: #fff;
+} */
+.list{
+    list-style-type: none;
+    background-color: #fff;
+    text-align: center;
+    display: none;
+}
+.show-list{
+    display: block;
+    
+}
+.nav li{
+    padding: 0.5rem 0;
+}
+.nav a{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+}
+.nav a:hover{
+    opacity: 0.8;
+}
+
+.section-item{
+    width: 100%;
+    height: 100vh;
+    /* position: relative; */
+}
+.Home{
+    background: url('../img/road-landscape-nature-forest-39811.jpg') no-repeat center / cover;
+    
+}
+#Service{
+    background: url('../img/view-of-elephant-in-water-247431.jpg') no-repeat center / cover;
+}
+#About{
+    background: url('../img/bg1.jpg') no-repeat center / cover;
+}
+#Contact{
+    background: url('../img/beach-birds-calm-clouds-219998.jpg') no-repeat center / cover;
+}
+#Info{
+    background: url('../img/white-and-yellow-flower-with-green-stems-36764.jpg') no-repeat center / cover;
+}
+
+.section-item{
+    color: #fff;
+    text-align: center;
+}
+.section-item .btn{
+    text-decoration: none;
+    color: #fff;
+    padding: 0.3rem 1rem;
+    border: 2px solid #fff;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.sec-inner{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fixed{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background-color: #fff;
+    height: 60px;
+}
+.fixed .logo-menu h1{
+    color: #000;
+}
+.fixed .list a{
+    color: #000;
+}
+
+@media(min-width : 800px){
+    
+    .logo-menu i {
+        display: none;
+    }
+    .logo-menu{
+        color: #fff;
+        background-color: transparent;
+    }
+    .nav{
+        background: tranparent;
+        position: absolute;
+        top : 0 ;
+        color: #fff;
+        display: flex;
+
+    }
+    .list{
+        display: flex;
+        align-items: center;
+        background-color: transparent;
+        height: 60px;
+
+    }
+    .list a{
+        color: #fff;
+        margin: 0 1rem;
+    }
+}
